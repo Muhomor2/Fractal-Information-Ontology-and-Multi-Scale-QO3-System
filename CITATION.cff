@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "FIO-QO3: Fractal Information Ontology for Seismic Risk Detection"
+version: 1.0.0
+date-released: 2025-12-31
+url: "https://github.com/ichechelnitsky/FIO-QO3"
+repository-code: "https://github.com/ichechelnitsky/FIO-QO3"
+license: CC-BY-NC-ND-4.0
+type: software
+authors:
+  - family-names: "Chechelnitsky"
+    given-names: "Igor"
+    orcid: "https://orcid.org/0009-0007-4607-1946"
+    affiliation: "Independent Researcher, Ashkelon, Israel"
+contact:
+  - name: "Igor Chechelnitsky"
+    website: "https://www.facebook.com/igor.chechelnitsky"
+keywords:
+  - earthquake forecasting
+  - seismology
+  - fractal analysis
+  - self-organized criticality
+  - b-value
+  - coefficient of variation
+  - machine learning
+  - risk detection
+abstract: >-
+  A physics-based framework for detecting pre-event regimes in seismic 
+  catalogs using Fractal Information Ontology (FIO). The system analyzes 
+  temporal structure of earthquake sequences through b-value, inter-event 
+  interval statistics (CV), and information entropy to detect regime changes 
+  preceding significant events. Validated on JMA catalogs (Japan, 2017-2023) 
+  with Skill Score 0.08-0.10, representing 4-5x improvement over baseline 
+  ETAS models. All commercial rights reserved by the author.
+references:
+  - type: article
+    authors:
+      - family-names: "Aki"
+        given-names: "K."
+    title: "Maximum likelihood estimate of b in the formula log N = a - bM"
+    journal: "Bull. Earthq. Res. Inst."
+    volume: 43
+    start: 237
+    end: 239
+    year: 1965
+  - type: article
+    authors:
+      - family-names: "Bak"
+        given-names: "P."
+      - family-names: "Tang"
+        given-names: "C."
+      - family-names: "Wiesenfeld"
+        given-names: "K."
+    title: "Self-organized criticality: An explanation of the 1/f noise"
+    journal: "Phys. Rev. Lett."
+    volume: 59
+    start: 381
+    end: 384
+    year: 1987

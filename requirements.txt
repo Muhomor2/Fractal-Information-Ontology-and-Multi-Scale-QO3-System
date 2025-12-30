@@ -1,0 +1,21 @@
+# FIO-QO3 Dependencies
+# =====================
+# 
+# Author: Igor Chechelnitsky
+# License: CC BY-NC-ND 4.0 (Commercial Rights Reserved)
+# Contact: Facebook - Igor Chechelnitsky
+
+# Core dependencies
+numpy>=1.20.0
+pandas>=1.3.0
+requests>=2.25.0
+
+# Optional: Machine Learning validation
+scikit-learn>=1.0.0
+
+# Optional: Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Optional: Advanced statistics
+scipy>=1.7.0
